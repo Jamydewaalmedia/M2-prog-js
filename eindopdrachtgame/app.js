@@ -89,7 +89,7 @@ class App
         console.log(g);
         
         g.fillStyle = "black"
-        g.fillRect(0,450,1500,200)
+        g.fillRect(0,450,1700,200)
         g.fillStyle = "white"
         g.fillRect(140,545,100,20)
         g.fillRect(340,545,100,20)
