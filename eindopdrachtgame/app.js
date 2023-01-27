@@ -78,6 +78,15 @@ class App
         g.fillStyle = "gray"
         g.fillRect(1120,220,60,20);
         g.fillRect(1080,220,60,20);
+        //third lantarn
+        g.fillStyle = "gray"
+        g.fillRect(1620,230,20,200);
+        g.fillStyle = "gold"
+        g.fillRect(1660,240,20,20);
+        g.fillRect(1580,240,20,20);
+        g.fillStyle = "gray"
+        g.fillRect(1620,220,60,20);
+        g.fillRect(1580,220,60,20);
         console.log(canvas)
     }
     road()
@@ -137,6 +146,40 @@ class App
         g.fillRect(1100,280,100,60);
 
         console.log(canvas)
+    }
+    huis3(){
+        let canvas = document.getElementById("canvasId")
+        let g = canvas.getContext("2d");
+        document.getElementById("canvasId");
+        g.fillStyle = "green"
+        g.fillRect(1235,30,380,380)
+        g.fillStyle = "pink"
+        g.fillRect(1610,1,20,410)
+        g.fillStyle = "aqua"
+        g.fillRect(1235,1,375,30)
+       
+        
+
+        //leftside
+        g.fillStyle = "darkgray"
+        g.fillRect(1250,40,100,60);
+        g.fillRect(1250,120,100,60);
+        g.fillRect(1250,200,100,60);
+        g.fillRect(1250,280,100,60);
+        //midde side
+        g.fillRect(1375,40,100,60);
+        g.fillRect(1375,120,100,60);
+        g.fillRect(1375,200,100,60);
+        //door
+        g.fillStyle = "black"
+        g.fillRect(1375,280,100,130);
+        //right side
+        g.fillStyle = "darkgray"
+        g.fillRect(1500,40,100,60);
+        g.fillRect(1500,120,100,60);
+        g.fillRect(1500,200,100,60);
+        g.fillRect(1500,280,100,60);
+
     }
 
     
@@ -213,6 +256,7 @@ class App
         this.road();
         this.huis();
         this.huis2();
+        this.huis3();
         this.lantaarn();
         this.snowman();
         
